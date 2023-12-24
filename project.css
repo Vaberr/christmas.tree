@@ -1,0 +1,201 @@
+@font-face{
+    font-family: ofont;
+    src: url(ofont.ru_Damn\ noisy\ kids.ttf)
+}
+@font-face{
+    font-family: text;
+    src: url(ofont.ru_Oldtimer.ttf)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.all{
+    background-color: rgb(255, 246, 243);
+}
+.header{
+    width: 100%;
+    height: 40vh;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 2%;
+}
+.top{
+border-top: 20px double rgb(255, 59, 59);
+border-bottom: 10px double rgb(255, 59, 59);
+text-align: center;
+color: rgb(250, 16, 16);
+font-style: italic;
+font-size: x-large;
+animation: animation_text 4s infinite;
+background-image: url(pngwing.com\ \(17\).png);
+background-position: 0px -30px;
+font-family: text;
+}
+.picture{
+    width: 100%;
+    
+}
+.picture img{
+    position: relative;
+    top: -2.5em;
+    width: 100%;
+    height: 70%;
+}
+.nav-main1{
+    border-top: 10px double rgb(255, 59, 59);
+    width: 100%;
+    height: 110vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+.nav-main2{
+    border-top: 10px double rgb(255, 59, 59);
+    width: 100%;
+    height: 250vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+.nav-main{
+    border-top: 10px double rgb(255, 59, 59);
+    width: 100%;
+    height: 550vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+.nav{
+    border-right: 2px solid rgb(255, 59, 59);
+    padding: 6%;
+}
+.nav ul img{
+    margin-top: 40%;
+    width: 100%;
+}
+.nav ul{
+    position: sticky;
+    top: 6em;
+}
+.nav li:hover{
+    text-shadow: 2px 2px rgb(245, 165, 241);
+}
+.topic{
+    text-align: justify;
+    font-family: text;
+    font-size: large;
+    margin-bottom: 10%;
+    color: rgb(255, 59, 59);
+}
+.topic:hover{
+    text-shadow: 2px 2px rgb(245, 165, 241);
+}
+a{ 
+    text-decoration: none; 
+}
+.topics{
+    margin-bottom: 2%;
+    margin-top: 6%;
+    font-family: text;
+}
+.main{
+    background-color:   rgb(253, 245, 245);
+}
+.main h1{
+    text-align: center;
+    color: rgb(90, 187, 0);
+    font-size: 250%;
+    font-family: text;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.main h3{
+    text-align: left;
+    color: rgb(90, 187, 0);
+    font-size: x-large;
+    padding: 0.5em;
+    font-family: text;
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+.main p{
+    text-align: justify;
+    font-size: 145%;
+    color: rgba(77, 0, 0, 0.822);
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+.life{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 15%; 
+    border: 2px solid rgb(255, 59, 59);
+}
+.life img{
+    width: 30%;
+    height: auto;
+    margin-left: 15%;
+}
+.life p{
+    text-align: center;
+    margin-top: 20%;
+    font-size: xx-large;
+    margin-left: 15%;
+}
+.frazer{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    margin-top: 1%;
+    width: 100%;
+    height: 25%; 
+}
+.frazer p{
+    text-align: center;
+    margin-top: 20%;
+    font-size: x-large;
+    margin-left: 15%;
+}
+.frazer img{
+    width: 35%;
+    height: auto;
+    margin-left: 5%;
+    border:
+}
+.photo{
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: 1%;
+    width: 100%;
+    height: 13%;
+}
+.photo img{
+    width: 60%;
+    height:auto;
+    margin-left: 15%;
+}
+.footer{
+    width: 100%;
+    height: 18vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2%;
+    border-top: 10px double rgb(255, 59, 59);
+    background-image: url(pngwing.com\ \(17\).png);
+    background-position: 0px -30px;
+    }
+.footer p{
+    text-align: center;
+    font-size: large ;
+    font-family: text;
+    margin-top: 5%;
+}
+
+@keyframes animation_text{
+    0%{color:rgb(255, 0, 0);}
+    25%{color: rgb(255, 145, 0);}
+    50%{color: rgb(85, 177, 0);}
+    75%{color:rgb(0, 202, 135)}
+    100%{color:rgb(255, 106, 51)}
+}
